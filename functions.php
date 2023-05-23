@@ -15,3 +15,5 @@ add_action('wp_enqueue_scripts', 'style_register');
 add_action('after_setup_theme', 'setup_theme');
 //Add new post type
 add_action('init', 'university_post_types');
+//Set Custom query for event post types
+//add_action('pre_get_posts', 'university_adjust_queries');
